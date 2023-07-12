@@ -38,5 +38,9 @@ Plant.create!([
     price: 55
   }
 ])
+Plant.create(name: 'Rose', image: 'rose.jpg', price: 9.99)
+Plant.create(name: 'Lily', image: 'lily.jpg', price: 12.99)
+
+
 
 puts '✅ Done seeding!'
